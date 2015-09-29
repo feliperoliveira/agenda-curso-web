@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Compra</title>
+</head>
+<body>
+
+<form action="comprar" method="post">
+<label>Itens da Compra</label><br/>
+<select name="item" multiple="multiple">
+		<option value="camera">Camera Digital</option>
+		<option value="televisor">Televisor</option>
+		<option value="phone">Smart phone</option>
+		<option value="som">Aparelho Som</option>
+		
+	</select>
+	<br/>
+	<label>CC</label><br/>
+	<input name="cartao"><br/>
+	<select name="bandeira">
+		<option>Master</option>
+		<option>Visa</option>
+		<option>HiperCard</option>
+	</select>
+	<br/>
+	<input type="submit" value="Comprar">
+</form>
+</body>
+</html>
